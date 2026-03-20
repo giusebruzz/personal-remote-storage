@@ -1,10 +1,9 @@
-package com.example.demo.Security;
+package com.example.demo.DTO;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
 
-public class RegisterRequest {
+public class UpdateUserRequest {
 
     @NotBlank
     private String username;
@@ -13,8 +12,6 @@ public class RegisterRequest {
     @Email
     private String email;
 
-    @NotBlank
-    @Size(min = 8)
     private String password;
 
     public String getUsername() { return username; }

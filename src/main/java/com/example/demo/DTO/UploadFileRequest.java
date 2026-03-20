@@ -1,4 +1,4 @@
-package com.example.demo.Dati;
+package com.example.demo.DTO;
 
 import org.springframework.web.multipart.MultipartFile;
 

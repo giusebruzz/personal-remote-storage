@@ -7,12 +7,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
+import com.example.demo.AUTH.UserDetailsImpl;
+import com.example.demo.DTO.StorageNodeRequest;
 import com.example.demo.Dati.StorageNode;
-import com.example.demo.Dati.StorageNodeRequest;
 import com.example.demo.Exception.StorageNodeAlreadyExistsException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
 import com.example.demo.Repository.UserRepository;
-import com.example.demo.Security.UserDetailsImpl;
 import com.example.demo.Service.StorageNodeService;
 
 import jakarta.validation.Valid;

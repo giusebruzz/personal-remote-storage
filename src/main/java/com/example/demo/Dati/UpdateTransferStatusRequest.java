@@ -1,5 +1,7 @@
 package com.example.demo.Dati;
 
+import com.example.demo.ENUM.TransferStatus;
+
 import jakarta.validation.constraints.NotNull;
 
 public class UpdateTransferStatusRequest {

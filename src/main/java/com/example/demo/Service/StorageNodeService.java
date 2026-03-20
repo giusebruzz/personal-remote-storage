@@ -32,7 +32,7 @@ public class StorageNodeService {
 			        .orElseThrow(() -> new RuntimeException("Utente non trovato"));
 
 		 storageNode.setUser(user);
-			    return storageNodeRep.save(storageNode);
+	     return storageNodeRep.save(storageNode);
 		
 	}
 	

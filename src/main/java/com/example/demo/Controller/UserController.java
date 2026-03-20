@@ -5,11 +5,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.demo.Dati.UpdateUserRequest;
+import com.example.demo.AUTH.UserDetailsImpl;
+import com.example.demo.DTO.UpdateUserRequest;
 import com.example.demo.Dati.User;
 import com.example.demo.Exception.UserAlreadyExistsException;
 import com.example.demo.Exception.UserNotFoundException;
-import com.example.demo.Security.UserDetailsImpl;
 import com.example.demo.Service.UserService;
 
 import jakarta.validation.Valid;

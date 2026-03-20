@@ -1,4 +1,4 @@
-package com.example.demo.Dati;
+package com.example.demo.ENUM;
 
 public enum TransferStatus {
 	

@@ -1,4 +1,4 @@
-package com.example.demo.Security;
+package com.example.demo.Controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,8 +9,13 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
+import com.example.demo.AUTH.AuthResponse;
+import com.example.demo.Configuration.SecurityBeansConfig;
+import com.example.demo.DTO.LoginRequest;
+import com.example.demo.DTO.RegisterRequest;
 import com.example.demo.Dati.User;
 import com.example.demo.Repository.UserRepository;
+import com.example.demo.Service.JwtService;
 
 import jakarta.validation.Valid;
 

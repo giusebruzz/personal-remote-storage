@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.Dati.StorageTransfer;
 import com.example.demo.Dati.StoredFile;
-import com.example.demo.Dati.TransferStatus;
+import com.example.demo.ENUM.TransferStatus;
 import com.example.demo.Exception.FileNotFoundException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
 import com.example.demo.Repository.StorageTransferRepository;

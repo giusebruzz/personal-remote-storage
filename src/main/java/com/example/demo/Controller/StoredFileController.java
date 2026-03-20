@@ -12,12 +12,12 @@ import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.example.demo.AUTH.UserDetailsImpl;
 import com.example.demo.Dati.StoredFile;
 import com.example.demo.Exception.FileAlreadyExistsException;
 import com.example.demo.Exception.FileNotFoundException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
 import com.example.demo.Exception.UserNotFoundException;
-import com.example.demo.Security.UserDetailsImpl;
 import com.example.demo.Service.StoredFileService;
 
 @RestController

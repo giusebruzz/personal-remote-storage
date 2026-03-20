@@ -2,6 +2,8 @@ package com.example.demo.Dati;
 
 import java.time.LocalDate;
 
+import com.example.demo.ENUM.TransferStatus;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;

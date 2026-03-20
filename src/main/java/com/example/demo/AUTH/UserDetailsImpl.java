@@ -1,4 +1,4 @@
-package com.example.demo.Security;
+package com.example.demo.AUTH;
 
 import java.util.Collection;
 import java.util.Collections;

@@ -8,13 +8,13 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 
-import com.example.demo.Dati.CreateTransferRequest;
+import com.example.demo.AUTH.UserDetailsImpl;
+import com.example.demo.DTO.CreateTransferRequest;
 import com.example.demo.Dati.StorageTransfer;
-import com.example.demo.Dati.TransferStatus;
 import com.example.demo.Dati.UpdateTransferStatusRequest;
+import com.example.demo.ENUM.TransferStatus;
 import com.example.demo.Exception.FileNotFoundException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
-import com.example.demo.Security.UserDetailsImpl;
 import com.example.demo.Service.StorageTransferService;
 
 import jakarta.validation.Valid;

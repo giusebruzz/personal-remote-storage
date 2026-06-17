@@ -5,7 +5,7 @@ import java.time.LocalDate;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Dati.User;
+import com.example.demo.Entity.User;
 import com.example.demo.Exception.UserAlreadyExistsException;
 import com.example.demo.Exception.UserNotFoundException;
 import com.example.demo.Repository.UserRepository;

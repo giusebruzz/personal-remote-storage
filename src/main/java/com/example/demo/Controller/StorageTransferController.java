@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.AUTH.UserDetailsImpl;
 import com.example.demo.DTO.CreateTransferRequest;
-import com.example.demo.Dati.StorageTransfer;
-import com.example.demo.Dati.UpdateTransferStatusRequest;
 import com.example.demo.ENUM.TransferStatus;
+import com.example.demo.Entity.StorageTransfer;
+import com.example.demo.Entity.UpdateTransferStatusRequest;
 import com.example.demo.Exception.FileNotFoundException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
 import com.example.demo.Service.StorageTransferService;

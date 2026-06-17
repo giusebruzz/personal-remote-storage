@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.example.demo.AUTH.UserDetailsImpl;
-import com.example.demo.Dati.StoredFile;
+import com.example.demo.Entity.StoredFile;
 import com.example.demo.Exception.FileAlreadyExistsException;
 import com.example.demo.Exception.FileNotFoundException;
 import com.example.demo.Exception.StorageNodeNotFoundException;

@@ -5,8 +5,8 @@ import java.util.List;
 import org.springframework.security.access.AccessDeniedException;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Dati.StorageNode;
-import com.example.demo.Dati.User;
+import com.example.demo.Entity.StorageNode;
+import com.example.demo.Entity.User;
 import com.example.demo.Exception.StorageNodeAlreadyExistsException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
 import com.example.demo.Repository.StorageNodeRepository;

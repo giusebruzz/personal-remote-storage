@@ -13,7 +13,7 @@ import com.example.demo.AUTH.AuthResponse;
 import com.example.demo.Configuration.SecurityBeansConfig;
 import com.example.demo.DTO.LoginRequest;
 import com.example.demo.DTO.RegisterRequest;
-import com.example.demo.Dati.User;
+import com.example.demo.Entity.User;
 import com.example.demo.Repository.UserRepository;
 import com.example.demo.Service.JwtService;
 

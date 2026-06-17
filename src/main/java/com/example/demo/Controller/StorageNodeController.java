@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.AUTH.UserDetailsImpl;
 import com.example.demo.DTO.StorageNodeRequest;
-import com.example.demo.Dati.StorageNode;
+import com.example.demo.Entity.StorageNode;
 import com.example.demo.Exception.StorageNodeAlreadyExistsException;
 import com.example.demo.Exception.StorageNodeNotFoundException;
 import com.example.demo.Repository.UserRepository;

@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.Dati.StorageTransfer;
 import com.example.demo.ENUM.TransferStatus;
+import com.example.demo.Entity.StorageTransfer;
 
 public interface StorageTransferRepository extends JpaRepository<StorageTransfer,Long>{
 	

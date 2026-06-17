@@ -1,4 +1,4 @@
-package com.example.demo.Dati;
+package com.example.demo.Entity;
 
 import com.example.demo.ENUM.TransferStatus;
 

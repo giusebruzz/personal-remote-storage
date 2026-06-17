@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.Dati.StorageNode;
+import com.example.demo.Entity.StorageNode;
 
 public interface StorageNodeRepository extends JpaRepository<StorageNode,Long>{
 
